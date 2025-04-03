@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>웹프로그래밍 HTML</title>
+    <link rel="stylesheet" href="htmlprac.style.css" />
+  </head>
+  <body>
+    <!-- 메뉴 -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">MENU</div>
+        <ul class="nav">
+          <li><a href="main.html">Home</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="htmlprac.form.html">Form</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- 메인 섹션 -->
+    <div class="container">
+      <br>
+    <h1>🍕피자 주문하기🍕</h1>
+    <form style>
+      <fieldset>
+      <fieldset>
+        <legend>🍕 종류 선택</legend>
+        <div>
+          <input type="radio" name="pizza-type" id="h-1" />
+          <label for="h-1">콤비네이션 피자</label>
+          <input type="radio" name="pizza-type" id="h-2" />
+          <label for="h-2">페퍼로니 피자</label>
+          <input type="radio" name="pizza-type" id="h-3" />
+          <label for="h-3">하와이안 피자</label><br />
+          <input type="radio" name="pizza-type" id="h-4" />
+          <label for="h-4">불고기 피자</label>
+          <input type="radio" name="pizza-type" id="h-5" />
+          <label for="h-5">치즈 피자</label>
+          </div>
+      </fieldset>
+      <fieldset>
+        <legend>🍕사이즈 선택</legend>
+          <input type="radio" name="size" id="s-1" />
+          <label for="s-1">Small</label><br />
+          <input type="radio" name="size" id="s-2" />
+          <label for="s-2">Medium</label><br />
+          <input type="radio" name="size" id="s-3" />
+          <label for="s-3">Large</label><br />
+      </fieldset>
+      <fieldset>
+        <legend>🍕사이드 & 🥤음료 선택</legend>
+          <input type="checkbox" name="side" id="d-1" />
+          <label for="d-1">파스타</label>
+          <input type="checkbox" name="side" id="d-2" />
+          <label for="d-2">치즈볼</label>
+          <input type="checkbox" name="side" id="d-3" />
+          <label for="d-3">윙</label>
+          <input type="checkbox" name="side" id="d-4" />
+          <label for="d-4">콜라</label>
+          <input type="checkbox" name="side" id="d-5" />
+          <label for="d-5">사이다</label>
+      </fieldset>
+      <fieldset>
+        <legend>🍕주문자 정보🍕</legend>
+        <label for="id">이름</label>
+        <input type="text" id="id">
+        <label for="phone">전화번호</label>
+        <input type="tel" id="phone">
+        <label for="addr">배달 주소</label>
+        <input type="text" id="addr">
+<br><br>
+        <fieldset>
+          <legend>예약</legend>
+          <label>예약 여부</label><br>
+        <input type="radio" name="time" id="t-1">
+        <label for="t-1">O</label>
+        <input type="radio" name="time" id="t-2">
+        <label for="t-2">X</label>
+        <br>
+        <label for="date">날짜:</label>
+        <input type="date" id="date">
+    
+        <label for="time">시간:</label>
+        <input type="time" id="time">
+        </fieldset>
+      </fieldset>
+      <p><메모></p>
+      <textarea name="" id="" cols="40" rows="10"></textarea>
+      <div>
+        <input type="submit" value="주문하기" />
+        <input type="reset" value="취소하기" />
+      </div>
+    </fieldset>
+    </div>
+    </form>
+  </body>
+</html>
